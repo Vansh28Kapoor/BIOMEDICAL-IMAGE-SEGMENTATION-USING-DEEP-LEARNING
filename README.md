@@ -1,1 +1,3 @@
-# BIOMEDICAL-IMAGE-SEGMENTATION-USING-DEEP-LEARNING-
+# BIOMEDICAL-IMAGE-SEGMENTATION-USING-DEEP-LEARNING
+## U-Net architecture for semantic segmentation 
+I have designed and coded a U-Net architecture tailored for binary semantic segmentation for distinguishing between nucleus and non-nucleus regions in stained tissue images by employing TensorFlow+Keras. The U-Net model was trained using **Diceloss** and I have also modified the architecture to study the effects of changing the number of blocks and filters per layer. Towards the end  have also applied **watershed segmentation** on the probability map produced by UNet for segmentation of individual nuclei, demonstrating its effectiveness on test images containing overlapping or touching nuclei.
